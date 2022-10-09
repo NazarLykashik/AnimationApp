@@ -40,10 +40,10 @@ class ViewController: UIViewController {
     @IBAction func startSpringAnimation(_ sender: SpringButton) {
         springAnimationView.animation = "fadeIn"
         springAnimationView.curve = "linear"
-        springAnimationView.force = 2
-        springAnimationView.duration = 1
-        springAnimationView.delay = 0.3
-        springAnimationView.animate()
+                springAnimationView.force = 2
+                springAnimationView.duration = 1
+                springAnimationView.delay = 0.3
+                springAnimationView.animate()
         
         springButton.animation = "morph"
         springButton.curve = "easeOut"
